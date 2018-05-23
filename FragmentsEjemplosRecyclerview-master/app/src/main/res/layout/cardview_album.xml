@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10sp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvAlbum"
+    card_view:cardCornerRadius="4dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorSpotyGrey">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgAlbum"
+            android:layout_gravity="center"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/adele"/>
+
+        <TextView
+            android:layout_marginTop="20sp"
+            android:id="@+id/txtvAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_card_album"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:id="@+id/txtvArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_card_artista"
+            android:layout_gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentsEjemplos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_card_album">Rolenme el Deep</string>
+    <string name="text_card_artista">Adele</string>
+    <!--SENTENCIAS SQL -->
+    <string name="SQL_DROP">DROP TABLE IF EXIST</string>
+</resources>
